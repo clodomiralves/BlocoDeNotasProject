@@ -1,10 +1,13 @@
 package org.example;
 
+import java.time.LocalDate;
+
+
 public class Anotacoes {
     //Atributos
     private int id;
     private String texto;
-    private boolean deletar;
+    private LocalDate data;
 
     public String getTexto(){
         return texto;
@@ -18,5 +21,6 @@ public class Anotacoes {
     public void setId(int id){
         this.id = id;
     }
+
 
 }
